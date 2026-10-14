@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+:root {
+  --paper: #f3efe6;
+  --paper-2: #fffdf8;
+  --ink: #1a2118;
+  --muted: #5d675c;
+  --line: #e3dacb;
+  --green: #1b5e45;
+  --green-deep: #0e3b2c;
+  --gold: #a67c32;
+  --danger: #8d2f2f;
+  --shadow: 0 18px 50px rgba(26, 33, 24, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(166, 124, 50, 0.16), transparent 28rem),
+    var(--paper);
+  color: var(--ink);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
